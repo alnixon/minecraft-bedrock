@@ -1,31 +1,31 @@
 #!/bin/sh
 
-serverPath="/mcpe/server"
-defaultConfigPath="/mcpe/default-config"
-dataPath="/data"
+# SERVER_PATH="/mcpe/server"
+# DEFAULT_CONFIG_PATH="/mcpe/default-config"
+# DATA_PATH="/data"
 
-if [ ! -f "$dataPathPath/ops.json" ]; then
-  cp $defaultConfigPath/ops.json $dataPath/ops.json
+if [ ! -f "$DATA_PATHPath/ops.json" ]; then
+  cp $DEFAULT_CONFIG_PATH/ops.json $DATA_PATH/ops.json
 fi
 
-if [ ! -f "$dataPath/permissions.json" ]; then
-  cp $defaultConfigPath/permissions.json $dataPath/permissions.json
+if [ ! -f "$DATA_PATH/permissions.json" ]; then
+  cp $DEFAULT_CONFIG_PATH/permissions.json $DATA_PATH/permissions.json
 fi
 
-if [ ! -f "$dataPath/whitelist.json" ]; then
-  cp $defaultConfigPath/whitelist.json $dataPath/whitelist.json
+if [ ! -f "$DATA_PATH/whitelist.json" ]; then
+  cp $DEFAULT_CONFIG_PATH/whitelist.json $DATA_PATH/whitelist.json
 fi
 
-# if [ ! -f "$dataPath/server.properties" ]; then
-#   cp $defaultConfigPath/server.properties /$dataPath/server.properties
-# fi
-
-if [ ! -d "$dataPath/worlds" ]; then
-  mkdir -p $dataPath/worlds
+if [ ! -f "$DATA_PATH/server.properties" ]; then
+  cp $DEFAULT_CONFIG_PATH/server.properties $DATA_PATH/server.properties
 fi
 
-# ln -s $dataPath/ops.json $serverPath/ops.json
-# ln -s $dataPath/permissions.json $serverPath/permissions.json
-# ln -s $dataPath/whitelist.json $serverPath/whitelist.json
-# # ln -s $dataPath/server.properties $serverPath/server.properties
-# ln -s $dataPath/worlds $serverPath/worlds
+if [ ! -d "$DATA_PATH/worlds" ]; then
+  mkdir -p $DATA_PATH/worlds
+fi
+
+ln -s $DATA_PATH/ops.json $SERVER_PATH/ops.json
+ln -s $DATA_PATH/permissions.json $SERVER_PATH/permissions.json
+ln -s $DATA_PATH/whitelist.json $SERVER_PATH/whitelist.json
+ln -s $DATA_PATH/server.properties $SERVER_PATH/server.properties
+ln -s $DATA_PATH/worlds $SERVER_PATH/worlds
