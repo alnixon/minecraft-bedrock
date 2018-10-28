@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/mcpe/bedrock_server
+/mcpe/server/bedrock_server
