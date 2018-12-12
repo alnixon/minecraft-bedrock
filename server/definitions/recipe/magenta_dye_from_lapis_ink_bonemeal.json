@@ -1,6 +1,7 @@
 {
   "type": "crafting_shapeless",
   "group": "magenta_dye",
+  "priority": 8,
   "ingredients": [
     {
       "item": "minecraft:dye",

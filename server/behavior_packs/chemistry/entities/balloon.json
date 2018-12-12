@@ -1,11 +1,13 @@
 {
+  "format_version": "1.8.0",
   "minecraft:entity": {
-    "format_version": "1.2.0",
-
+    "description": {
+      "identifier": "minecraft:balloon",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
     "components": {
-      "minecraft:identifier": {
-        "id": "minecraft:balloon"
-      },
       "minecraft:collision_box": {
         "width": 0.4,
         "height": 0.4

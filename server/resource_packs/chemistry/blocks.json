@@ -413,8 +413,5 @@
   "colored_torch_bp": {
     "textures": "colored_torch",
     "sound": "wood"
-  },
-  "glow_stick": {
-    "textures": "glow_stick"
   }
 }

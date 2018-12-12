@@ -1,6 +1,7 @@
 {
   "type": "crafting_shapeless",
   "group": "light_gray_dye",
+  "priority": 8,
   "ingredients": [
     {
       "item": "minecraft:dye",

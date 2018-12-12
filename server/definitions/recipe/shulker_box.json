@@ -14,7 +14,6 @@
     }
   },
   "result": {
-    "item": "minecraft:undyed_shulker_box",
-    "data": 16
+    "item": "minecraft:undyed_shulker_box"
   }
 }

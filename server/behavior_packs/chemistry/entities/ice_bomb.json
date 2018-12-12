@@ -1,11 +1,13 @@
 {
+  "format_version": "1.8.0",
   "minecraft:entity": {
-    "format_version": "1.2.0",
-
+    "description": {
+      "identifier": "minecraft:ice_bomb",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
     "components": {
-      "minecraft:identifier": {
-        "id": "minecraft:ice_bomb"
-      },
       "minecraft:collision_box": {
         "width": 0.25,
         "height": 0.25
@@ -17,7 +19,7 @@
             "shape": "cube",
             "snap_to_block": true
           },
-          "remove_on_hit": { },
+          "remove_on_hit": {},
           "particle_on_hit": {
             "particle_type": "snowballpoof",
             "num_particles": 6,

@@ -1,6 +1,7 @@
 {
   "type": "crafting_shapeless",
   "group": "light_blue_dye",
+  "priority": 4,
   "ingredients": [
     {
       "item": "minecraft:dye",

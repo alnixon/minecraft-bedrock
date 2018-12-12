@@ -3,11 +3,11 @@
   "ingredients": [
     {
       "item": "minecraft:dye",
-      "data": 0
+      "data": 16
     },
     {
       "item": "minecraft:dye",
-      "data": 15
+      "data": 19
     }
   ],
   "result": {
